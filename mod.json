@@ -1,0 +1,17 @@
+{
+	"Name": "Takyon.AntiCheat",
+	"Description": "hnggg hecker",
+	"LoadPriority": 0,
+	"RequiredOnClient": false,
+	"Version": "1.0.0",
+
+	"Scripts": [
+		{
+			"Path": "takyon_anticheat.nut",
+			"RunOn": "SERVER && MP",
+			"ServerCallback": {
+				"After": "AntiCheatInit"
+			}
+		}
+	]
+}
